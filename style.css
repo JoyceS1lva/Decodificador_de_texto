@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+   background-color:#030303;
+   height: auto;
+   width: 100%;
+   color: aliceblue;
+}
+
+.cabecalho{
+    height: 100px;
+    width: 100%;
+    background-color: #030303;
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho_icone{
+    height: 80%;
+    padding-top: 10px;
+}
+
+.cabecalho_titulo{
+    padding-top: 28px;
+    padding-left: 10px;
+    font-family: "Orbitron", sans-serif; 
+}
+
+main{
+    padding: 2% 5%;
+    display: flex;
+}
+
+.conteudo_texto{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.conteudo_texto_input{
+    width: 95%;
+    height: 40px;
+    background-color: #1D1C1C;
+    border-radius: 10px;
+    border: 3px solid #DE26D7;
+    color:azure;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.conteudo_texto_imagem{
+    width: 95%;
+    height: 400px;
+    padding: 25px 0;
+}
+.conteudo_exibicao{
+    width: 30%;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo_exibicao_resultado{
+    width: 100%;
+    height: 430px;
+    background-color: rgb(197, 197, 223);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.conteudo_exibicao_imagem{
+    width: 300px;
+    height: 300px;
+}
+
+.conteudo_exibicao_texto{
+    color: #1D1C1C;
+    font-size: 25px;
+    font-family: "Orbitron", sans-serif ;
+    font-weight:600 ;
+}
+
+.conteudo_exibicao_paragrafo{
+    color: #1D1C1C;
+    font-size: 17px;
+    font-family: "Orbitron", sans-serif ;
+}
+
+.botao{
+    display: flex;
+    justify-content:center;
+}
+
+.icone_cadeado{
+    width: 15px;
+    height: 15px;
+}
+
+.botao_button{
+    width: 250px;
+    padding: 15px;
+    margin: 0 15px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: #A526DE;
+    font-family: "Orbitron", sans-serif; 
+    color: rgb(249, 249, 242);
+}
+
+.rodape{
+    background-color: #A526DE;
+    height: 30px;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.link_linkedIn{
+    text-decoration: none;
+    color:rgb(249, 249, 242);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

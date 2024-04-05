@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/assets/20075257351582779186.svg">
+    <title> Decodificando </title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="/assets/_c3c6e133-b7d9-45a0-a0de-ae8bd714dfc7-removebg-preview.png" class="cabecalho_icone"> 
+        <h1 class="cabecalho_titulo"> Decodificando </h1>
+    </header>
+    <main class="conteudo">
+        <section class="conteudo_texto">
+            <textarea id="inputText" class="conteudo_texto_input" name="story" rows="20" cols="33" placeholder="Digite seu texto aqui"> </textarea>
+            <img class="conteudo_texto_imagem" src="/assets/_060c4614-0129-4591-99ad-9cff5a821a72.jpg">
+            <div class="botao">
+                <button onclick="criptografar()"  class="botao_button">
+                    <img class="icone_cadeado" src="/assets/free_icon_1.svg">
+                    Criptografar 
+                </button>
+                <button onclick="descriptografar()" class="botao_button"> 
+                    <img  class="icone_cadeado" src="/assets/free_icon_1 (1).svg">
+                    Descriptografar 
+                </button>
+            </div>
+        </section>
+        
+        <section class="conteudo_exibicao">
+            <div class="conteudo_exibicao_resultado">
+                <img class="conteudo_exibicao_imagem" src="/assets/_c5f31781-1e23-4a6e-a677-41a32675a68d-removebg-preview.png">
+                <h3 class="conteudo_exibicao_texto"> Nenhum texto encontrado </h3>
+                <p id="outputText" class="conteudo_exibicao_paragrafo"> Digite o texto no campo ao lado </p>
+            </div>
+            <button onclick="copiarTexto()" class="botao_button"> Copiar </button>
+        </section>
+        
+    </main>
+
+    <footer class="rodape">
+        <a class="link_linkedIn" href="https://www.linkedin.com/in/joyce-camille-silva-672975201/"> Desenvolvido por Joyce Silva </a>
+    </footer>
+
+    <script src="script.js" ></script>
+</body>
+</html>
